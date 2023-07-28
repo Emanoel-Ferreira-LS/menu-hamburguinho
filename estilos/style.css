@@ -12,6 +12,14 @@ body, html{
     background-color: lightgray;
 }
 
+#subtitulo{
+    text-align: center;
+    margin-top: 2px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
 header{
     background-color: gray;
 }
@@ -70,10 +78,36 @@ main{
     margin-top: 10px;
 }
 
-main h2{
+main > h2{
     padding-bottom: 20px;
     font-size: 1.5em;
     text-align: center;
+    margin-top: 20px;
+}
+
+main > h3{
+    margin: 50px 10px 5px 2%;
+}
+
+main > h4{
+    margin: 10px 10px 15px 5%;
+}
+
+main > p{
+    width: 80%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+iframe{
+    width: 90%;
+    height: 60vh;
+    border: 1px solid #2c2c2c;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 p{

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.tags{
+    color: #00006b;
+}
+
+.atributos{
+    color: #3636ff;
+}
+
+.valores{
+    color: #a5550a;
+}
+
+.conteudos{
+    color: white;
+}
+
