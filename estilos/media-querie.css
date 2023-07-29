@@ -13,6 +13,10 @@ Telas grandes: mais que 1200px
 */
 
 @media screen and (min-width: 992px) {
+    body{
+        background-image: url(../img/paisagem-pc.jpg);
+    }
+
     #iburguer{
         display: none;
     }
@@ -31,15 +35,19 @@ Telas grandes: mais que 1200px
 
     #menu li{
         display: inline-block;
-        width: 10%;
     }
 
     main{
         width: 992px;
     }/*Posso fazer assim, ou definir um max-width: 992px do main no estilo principal*/
 
-    main h2{
-        font-size: 2em;
+    main > section > h2{
+        font-size: 2.5em;
+    }
+    
+    #subtitulo{
+        font-size: 1em;
+        margin-top: 2px;
     }
 
 }
