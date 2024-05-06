@@ -12,7 +12,7 @@ Telas grandes: mais que 1200px
 ---------------------------------
 */
 
-@media screen and (min-width: 992px) {
+@media screen and (orientation: landscape, min-width: 992px) {
     body{
         background-image: url(../img/paisagem-pc.jpg);
     }
